@@ -16,5 +16,3 @@ class Libro(Producto):
                f"DESCRIPCIÓN\t {self.descripcion}\n" \
                f"ISBN\t\t {self.isbn}\n" \
                f"AUTOR\t\t {self.autor}\n"
-cuaderno = Libro(2036, "Cuaderno", 5, "Cuaderno de hojas blancas", "0-123456-78-9", "Pepito Pérez")
-print(cuaderno)

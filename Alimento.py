@@ -16,7 +16,3 @@ class Alimento(Producto):
                f"DESCRIPCIÓN\t {self.descripcion}\n" \
                f"PRODUCTOR\t\t {self.productor}\n" \
                f"DISTRIBUIDOR\t\t {self.distribuidor}\n"
-
-
-manzana = Alimento(2035, "Manzana", 5, "Manzana roja", "Gallardo", "La Chiquita")
-print(manzana)
