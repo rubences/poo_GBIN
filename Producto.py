@@ -11,5 +11,3 @@ class Producto:
                f"PVP\t\t {self.pvp}\n" \
                f"DESCRIPCIÓN\t {self.descripcion}\n"
 
-adorno = Producto('000A','Vaso Adornado',15,'Vaso de porcelana con dibujos')
-print(adorno)
