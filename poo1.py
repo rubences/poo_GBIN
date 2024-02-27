@@ -1,23 +1,15 @@
 class Producto:
-    def __init__(self, referencia, tipo, nombre, 
-                 pvp,  descripcion, productor=None, 
-                 distribuidor=None, isbn=None, autor=None):
+    def __init__(self,referencia,nombre,pvp,descripcion):
         self.referencia = referencia
-        self.tipo = tipo
         self.nombre = nombre
         self.pvp = pvp
         self.descripcion = descripcion
-        self.productor = productor
-        self.distribuidor = distribuidor
-        self.isbn = isbn
-        self.autor = autor
 
     def __str__(self):
-        return " floripondios "
+        return f"REFERENCIA\t {self.referencia}\n" \
+               f"NOMBRE\t\t {self.nombre}\n" \
+               f"PVP\t\t {self.pvp}\n" \
+               f"DESCRIPCIÓN\t {self.descripcion}\n"
 
-
-adorno = Producto('000A','ADORNO','Vaso Adornado',15,
-                  'Vaso de porcelana con dibujos') 
-
+adorno = Producto('000A','Vaso Adornado',15,'Vaso de porcelana con dibujos')
 print(adorno)
-print(adorno.tipo)  
